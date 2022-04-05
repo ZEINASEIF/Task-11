@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: hsl(0, 100%, 74%) ;
+}
+.form-header p{
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    margin-top: 80px;
+    margin-bottom: -80px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 5px 5px 0 hsl(249, 10%, 26%);
+}
+.form-header span{
+    font-size: 14px;
+    font-weight: 300px;
+    color:hsl(245, 32%, 86%);
+}
+.form-body{
+    margin: 100px auto;
+    
+}
+.text{
+    margin: 0px 0;
+}
+.text p{
+    color: #fff;
+    font-size: 22px;
+    text-align: left;
+}
+.text h1{
+color: #fff;
+padding-right: 20px;
+font-size: 50px;
+font-weight: 800px;
+line-height: 55px;
+text-align: left;
+padding-top: 200px;
+padding-bottom: 20px;
+}
+form{
+    padding-top: 20px;
+    background-color: #ffff;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px hsl(240, 6%, 16%) ;
+}
+ .form-row{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -18px;
+}
+
+.btn{
+    width: 90%;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+.btn:hover{
+    background-color: hsl(153, 77%, 63%);
+}
+.btn-row h6{
+    font-size: 12px;
+    color: rgb(201, 189, 189);
+    text-align: center;
+    margin-top: -23px;
+    margin-bottom: 25px;
+    padding-left: 5px;
+}
+.btn-row span{
+    color: hsl(0, 100%, 74%) ;
+}
+@media (max-width:400px) {
+    .text h1{
+        text-align: center;
+        font-size: 38px;
+        line-height: 45px;
+        padding-left: 15px;
+        
+    }
+    .text p{
+        font-size: 18px;
+        text-align: center;
+    }
+}
